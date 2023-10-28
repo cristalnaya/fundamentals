@@ -18,25 +18,25 @@ Welcome to the Software Engineering Fundamentals Guide! This repository serves a
 In our rapidly evolving tech world, understanding the basics is crucial. This guide will help you set up your development environment, understand version control with Git, and maintain a standard in your commits, among other topics.
 
 ## Setting Up Node.js with NVM
-Dive into the world of Node.js, understand its significance, and set it up efficiently using NVM. [Navigate here for detailed instructions.](./Node_Setup.md)
+Dive into the world of Node.js, understand its significance, and set it up efficiently using NVM. [Navigate here for detailed instructions for macOS and Linux](./setting-node-with-nvm/macOS-and-Linux.md) and [for windows](./setting-node-with-nvm/windows.md)
 
 ## Git Basics and Setup
-Get to know about Git, its historical importance, and the steps to set it up on your machine. [Detailed guide here.](./Git_Setup.md)
+Get to know about Git, its historical importance, and the steps to set it up on your machine. [Detailed guide here.](./git-basics/git-basics.md)
 
 ## SSH Keys and GitHub
-Secure your connection with repositories using SSH. Learn how to generate SSH keys and link them with your GitHub account. [Click here for steps.](./SSH_GitHub.md)
+Secure your connection with repositories using SSH. Learn how to generate SSH keys and link them with your GitHub account. [Click here for steps.](./ssh-github/ssh-github.md)
 
 ## Git Commands in Terminal
-Learn the basics of Git commands both in terminal and VSCode, and understand how to clone, commit, push, and pull. [Follow this guide for more.](./Git_Commands.md)
+Learn the basics of Git commands both in terminal and VSCode, and understand how to clone, commit, push, and pull. [Follow this guide for more.](./git-commands-terminal/git-commands-terminal.md)
 
 ## Commit Standards
-Understand the importance of maintaining commit standards and delve into the Conventional Commits practice. [Detailed instructions here.](./Commit_Standards.md)
+Understand the importance of maintaining commit standards and delve into the Conventional Commits practice. [Detailed instructions here.](./commit-standards/commit-standards.md)
 
 ## Tasks and Exercises
-After navigating through the guides, test your knowledge with real-world tasks and exercises. [Start here!](./Tasks.md)
+After navigating through the guides, test your knowledge with real-world tasks and exercises. [Start here!](./exercises)
 
 ## Resources and Further Reading
-Expand your knowledge with additional resources, articles, and tutorials that delve deeper into each topic. [Find resources here.](./Resources.md)
+Expand your knowledge with additional resources, articles, and tutorials that delve deeper into each topic. [Find resources here.](./helpful-resources-plugins/resources.md)
 
 ## Feedback and Questions
 We value your feedback! If you have questions or need clarification on any topic, please raise an issue in this repository, and we'll address it promptly.
