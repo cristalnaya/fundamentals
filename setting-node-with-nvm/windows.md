@@ -14,7 +14,10 @@ Before installing nvm-windows, it's essential to remove any existing installatio
 
 2. Download nvm-windows:
 * Visit the GitHub releases page of nvm-windows.
- * Download the latest version of the installer, typically named nvm-setup.zip.
+ * Download the latest version of the installer, typically named nvm-setup.zip. or just get nvm-setup.exe
+![nvm-for-windows.png](../assets/nvm-for-windows.png)
+**or**
+![nvm-win-readme.png](../assets/nvm-win-readme.png)
  
 3. Install nvm-windows:
 * Extract the nvm-setup.zip file.

@@ -93,6 +93,24 @@ To see a more condensed, one-line version of the commit logs with a graph repres
 git log --oneline --graph --all
 ```
 
+**Merging Branches**
+When you feel your feature or fix is ready, it's time to merge it back to the main branch.
+
+**Fast-Forward Merge:** If the main branch hasn't seen any new snapshots since you started your feature branch, Git simply moves the main branch pointer forward.
+
+**3-Way Merge:** If there have been new snapshots in the main branch, Git will create a new snapshot that results from this three-way merge and automatically creates a new commit that points to it.
+
+```css
+git merge [branch-name]
+```
+
+**Handling Merge Conflicts**
+Sometimes, Git can't auto-merge changes and needs manual intervention. It's crucial to understand how to resolve these conflicts.
+
+**Identifying Conflicts:** Git marks conflicted areas in the file.
+**Resolving Conflicts:** Edit the files to fix the conflicting changes and then add the resolved files with `git add [file-name]`.
+**Completing the Merge:** Once you've resolved and added all the problematic files, you continue the merge with `git commit`.
+
 
 ## Git in IDEs
 Many modern Integrated Development Environments (IDEs) have built-in support for Git. While the exact methods might differ, the principles are often the same:
