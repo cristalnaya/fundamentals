@@ -21,32 +21,50 @@ git config --global user.email "youremail@example.com"
 ```bash
 git --version
 ```
+or
+```bash
+git -v
+```
 ## Basic Git Commands
-* Initialize a Repository: Start a new repository or reinitialize an existing one.
 
+* Initialize a Repository: Start a new repository or reinitialize an existing one.
 ```bash
 git init
 ```
 * **Clone a Repository:** Create a copy of a remote repository on your local machine.
 ```bash
-git clone [URL]
+git clone [repository_url]
 ```
 * **Add Changes:** Track changes in files.
-
-bash
+```bash
 git add [file-name]
-To add all changes:
+```
 
+To add all changes:
 ```bash
 git add .
 ```
 
 * **Commit Changes:** Save your changes with a descriptive message.
-
 ```bash
 git commit -m "Descriptive message here"
 ```
 **Push Changes:** Send your committed changes to a remote repository.
+
+* **Checking the Status of Your Files**
+```bash
+git status
+```
+Shows which changes have been staged, which haven’t, and which files aren’t being tracked.
+
+* **Unstaging Changes**
+```bash
+git reset HEAD [file_name]
+```
+This command will unstage the specified file. If you want to unstage all the changes, you can use:
+```bash
+git reset HEAD .
+```
 
 ```bash
 git push [remote-name] [branch-name]
@@ -61,6 +79,18 @@ git pull [remote-name] [branch-name]
 ```bash
 git log
 ```
+Displays the commit logs, showing author, date, and commit message. The output is displayed in a reverse chronological order (latest commits first).
+
+To see a more condensed, one-line version of the commit logs with a graph representation, use:
+```bash
+git log --oneline --graph --all
+```
+
+* Checking the Changes in a Specific Commit
+```bash
+git show [commit_id]
+```
+Displays the changes made in a specific commit. Replace `[commit_id]` with the commit's SHA-1 hash. This command will show the diff along with the commit message.
 
 ## Git Workflows
 Understanding Git's basic commands is crucial, but effectively using Git requires understanding workflows like:
@@ -71,4 +101,3 @@ Understanding Git's basic commands is crucial, but effectively using Git require
 
 ## Conclusion
 Git is a powerful tool for version control, collaboration, and code management. While there's much more to learn, mastering the basics sets you on a path to becoming a proficient Git user.
-

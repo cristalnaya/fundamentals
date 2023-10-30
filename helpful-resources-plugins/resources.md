@@ -4,6 +4,7 @@ While the guides provided give you a solid foundation, there's always more to le
 ## Git & GitHub
 * [Git Official Documentation](https://git-scm.com/doc)
 * [Pro Git Book](https://git-scm.com/book/en/v2)
+* [Git branching](https://learngitbranching.js.org/) - Interactive Git Branching Visualization
 
 ## SSH
 * [SSH Essentials: Working with SSH Servers, Clients, and Keys](https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys)
