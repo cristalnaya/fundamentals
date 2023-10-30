@@ -33,7 +33,7 @@ Learn the basics of Git commands both in terminal and VSCode, and understand how
 Understand the importance of maintaining commit standards and delve into the Conventional Commits practice. [Detailed instructions here.](./commit-standards/commit-standards.md)
 
 ## Tasks and Exercises
-After navigating through the guides, test your knowledge with real-world tasks and exercises. [Start here!](./exercises)
+After navigating through the guides, test your knowledge with real-world tasks and exercises. [Start here!](./exercise)
 
 ## Resources and Further Reading
 Expand your knowledge with additional resources, articles, and tutorials that delve deeper into each topic. [Find resources here.](./helpful-resources-plugins/resources.md)
