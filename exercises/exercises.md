@@ -10,14 +10,18 @@
 * Commit your changes with a message following the commit standards: feat(index.html): set up basic HTML structure.
 
 3. **Feature Branching for Crop Tips**
-* Create a branch named crop-tips.
+* Create a branch named `crop-tips`.
 * On this branch, in the index.html, add a section titled "Top Tips for Healthy Crops." Include 3-4 general agricultural tips.
-* Commit your changes with a message like feat(index.html): add top tips for healthy crops.
+* Commit your changes with a message like `feat(index.html): add top tips for healthy crops`.
+* Still on the `crop-tips` branch, add a line at the end of the "Top Tips for Healthy Crops" section saying "Always water crops early in the morning."
+* Commit your changes with a message like `feat(index.html): add watering tip to crop tips`.
 
-4. **Fertilizer Recommendations**
-* Create a branch named fertilizer-recs.
-* Add a section providing basic recommendations for fertilizer use for a specific crop like rice or maize.
-* Commit your changes with a message: feat(index.html): add fertilizer recommendations.
+4. **Fertilizer Recommendations and Conflict Introduction**
+* Create a branch named `fertilizer-recs`.
+* On this branch, in the same location where you just added the "Always water crops early in the morning" tip in the crop-tips branch, provide a conflicting tip or piece of advice, like "Avoid watering crops in the morning to prevent evaporation loss."
+* Commit your changes with a message like `feat(index.html): add conflicting watering tip`.
+* Continue on this branch: Add a section providing basic recommendations for fertilizer use for a specific crop like rice or maize.
+* Commit your changes with a message: `feat(index.html): add fertilizer recommendations`.
 
 5. **Styling the Content**
 * Create another branch named add-styles.
