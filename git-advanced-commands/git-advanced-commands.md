@@ -40,7 +40,7 @@ When you feel your feature or fix is ready, it's time to merge it back to the ma
 
   * **3-Way Merge:** If there have been new snapshots in the main branch, Git will create a new snapshot that results from this three-way merge and automatically creates a new commit that points to it.
 
-```css
+```bash
 git merge [branch-name]
 ```
 
@@ -69,7 +69,7 @@ Displays the commit logs, showing author, date, and commit message. The output i
 1. **Rebasing with another branch**
 When you want to incorporate the latest changes from another branch into your feature branch without merging, you can use rebase. This helps in maintaining a cleaner, linear history.
 
-**Note:** Before rebasing, it's good practice to ensure you have the latest updates from the branch you want to rebase onto. Typically, the [branch-name] will be master or main if you are rebasing your feature branch to ensure it's up-to-date with the main line of development.
+**Note:** Before rebasing, it's good practice to ensure you have the latest updates from the branch you want to rebase onto. Typically, the [branch-name] will be `master` or `main` if you are rebasing your feature branch to ensure it's up-to-date with the main line of development.
 
 Here's how you can do it:
 * Update the branch you want to rebase onto:
