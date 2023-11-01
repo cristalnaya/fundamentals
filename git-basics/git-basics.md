@@ -5,11 +5,11 @@ Git is a distributed version control system that helps developers manage and tra
 Git is a tool that helps multiple people work on the same project at the same time without stepping on each other's toes. It keeps track of changes made to files and allows for merging those changes together. With Git, you can rewind to previous states of a project, work on multiple features at the same time, and even work offline.
 
 ## Setting Up Git
-1. Installation:
+1. **Installation**:
 
-* **Windows**: Download and install from Git for Windows.
-* **Mac:** Use Homebrew: brew install git or download directly from Git website.
-* **Linux:** Use the package manager for your distribution, e.g., sudo apt-get install git for Debian/Ubuntu.
+* **Windows**: Download and install from [Git for Windows](https://gitforwindows.org/).
+* **Mac:** Use Homebrew: `brew install git` or download directly from [Git website](https://git-scm.com/download/mac).
+* **Linux:** Use the package manager for your distribution, e.g., `sudo apt-get install git` for Debian/Ubuntu.
 2. **Configuration**: After installation, it's a good practice to configure Git with your name and email. This information will be used in your commits.
 
 ```bash
@@ -49,13 +49,17 @@ git add .
 ```bash
 git commit -m "Descriptive message here"
 ```
-**Push Changes:** Send your committed changes to a remote repository.
 
 * **Checking the Status of Your Files**
 ```bash
 git status
 ```
 Shows which changes have been staged, which haven’t, and which files aren’t being tracked.
+
+* To unstage all the changes that have been staged:
+```bash
+git reset
+```
 
 * **Unstaging Changes**
 ```bash
@@ -66,6 +70,7 @@ This command will unstage the specified file. If you want to unstage all the cha
 git reset HEAD .
 ```
 
+**Push Changes:** Send your committed changes to a remote repository.
 ```bash
 git push [remote-name] [branch-name]
 ```
@@ -91,13 +96,6 @@ git log --oneline --graph --all
 git show [commit_id]
 ```
 Displays the changes made in a specific commit. Replace `[commit_id]` with the commit's SHA-1 hash. This command will show the diff along with the commit message.
-
-## Git Workflows
-Understanding Git's basic commands is crucial, but effectively using Git requires understanding workflows like:
-
-* **Feature branching:** Keeping different features in separate branches.
-* **Gitflow:** A specific set of guidelines for using feature, develop, and master branches.
-* **Forking:** Copying a remote repository to create a distinct project.
 
 ## Conclusion
 Git is a powerful tool for version control, collaboration, and code management. While there's much more to learn, mastering the basics sets you on a path to becoming a proficient Git user.

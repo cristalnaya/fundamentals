@@ -64,16 +64,12 @@ git stash apply
 git log
 ```
 Displays the commit logs, showing author, date, and commit message. The output is displayed in a reverse chronological order (latest commits first).
-To see a more condensed, one-line version of the commit logs with a graph representation, use:
-```bash
-git log --oneline --graph --all
-```
 
 ## Rebasing and Resolving Conflicts
 1. **Rebasing with another branch**
 When you want to incorporate the latest changes from another branch into your feature branch without merging, you can use rebase. This helps in maintaining a cleaner, linear history.
 
-Before rebasing, it's good practice to ensure you have the latest updates from the branch you want to rebase onto. Typically, the [branch-name] will be master or main if you are rebasing your feature branch to ensure it's up-to-date with the main line of development.
+**Note:** Before rebasing, it's good practice to ensure you have the latest updates from the branch you want to rebase onto. Typically, the [branch-name] will be master or main if you are rebasing your feature branch to ensure it's up-to-date with the main line of development.
 
 Here's how you can do it:
 * Update the branch you want to rebase onto:
