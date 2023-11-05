@@ -45,3 +45,41 @@ nvm -v
 **Note:** It's a good practice to visit the [official nvm GitHub repository](https://github.com/nvm-sh/nvm#installing-and-updating) to check for the latest stable release version and use the corresponding installation command from there.
 ## Wrapping Up
 With NVM on macOS and Linux, handling multiple versions of Node.js becomes a breeze. It provides flexibility and minimizes version-related issues.
+
+## Additional guide:
+To install `curl` or `wget` on a Mac, you typically use a package manager like Homebrew, which is widely regarded as the preferred package manager for macOS.
+
+### Installing Homebrew:
+If Homebrew is not installed on your Mac, you can install it first. Open the Terminal app and run the following command:
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+This script will explain what it will do and then pause before it does it. There are more installation options available (needed for macOS on ARM, for instance), which you can review on the Homebrew website.
+
+### Installing curl:
+`curl` is typically installed by default on macOS, but if you need to install or update it, you can do so using Homebrew:
+
+```sh
+brew install curl
+```
+This will download and install the latest version of curl.
+
+### Installing wget:
+To install `wget`, you can use Homebrew with the following command:
+
+```sh
+brew install wget
+```
+After running the installation command, you can verify the installation by checking the version of `curl` or `wget`:
+
+```sh
+curl --version
+```
+or
+
+```sh
+wget --version
+```
+These commands should return the version of `curl` or `wget` that you installed, confirming that the installation was successful.
